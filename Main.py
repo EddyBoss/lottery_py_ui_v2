@@ -13,11 +13,11 @@ c = 0
 d = 0
 num_input = input(f"Please enter a value: \n")
 a = num_input
-def random_generator() {
+
+def random_generator(): {
     print(f"Python random generator has initialized! \n")
 
 }
-__init__ == "__main__ "
-    random_generator()
-
+"__init__" == "__main__ "
+random_generator()
 print (a)
