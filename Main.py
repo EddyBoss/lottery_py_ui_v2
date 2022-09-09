@@ -22,12 +22,12 @@ def fix_generator():
     counter = (random.randint(0, 9) + random.randint(0, 9)) / 2
     a, b , c , d = ({(a + counter) /2} , {(b + counter)/2} , {(c + counter) / 2} , {(d + counter)/2})
     print(f"Your fix numbers are: {a} {b} {c} {d} \n", end="", flush=True, file=open("fixput.txt", "a"), sep=" ")
-
+    
    
     
 
-def initialize(): 
-    random_generator()
+# def initialize(): 
+#     random_generator()
 
 
 "__init__" == "__main__ "
