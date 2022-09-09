@@ -17,7 +17,7 @@ def random_generator() {
     print(f"Python random generator has initialized! \n")
 
 }
-if __init__ == "__main__ "{
+__init__ == "__main__ "
     random_generator()
-}
+
 print (a)
