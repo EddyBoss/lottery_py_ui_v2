@@ -15,7 +15,7 @@ num_input = input(f"Please enter a value: \n")
 a = num_input
 
 def random_generator(): {
-    print(f"Python random generator has initialized! \n")
+    print(f"\nPython random generator has initialized! \n")
 
 }
 "__init__" == "__main__ "
