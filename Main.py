@@ -13,7 +13,24 @@ from PIL import ImageTk, Image
 # 1st slot
 
 # a = [{input_a}, {}, {}, {}]
+
 class Lottery:
+    def lottery_info():
+        number_slot_1 = [[], [], [], []]
+        number_slot_2 = [[], [], [], []]
+        number_slot_3 = [[], [], [], []]
+        print ("Write your last lottery numbers")
+        print ("Please enter 4 numbers for the first slot")
+        for i in range(4):
+            number_slot_1[i] = input("Enter number: ")
+        print ("Please enter 4 numbers for the second slot")
+        for i in range(4):
+            number_slot_2[i] = input("Enter number: ")
+        print ("Please enter 4 numbers for the third slot")
+        for i in range(4):
+            number_slot_3[i] = input("Enter number: ")
+        print ("Your last lottery numbers are: {} {} {}".format(number_slot_1, number_slot_2, number_slot_3))
+
     def random_generator(): 
         a, b, c, d = random.randint(0, 9), random.randint(0, 9), random.randint(0, 9), random.randint(0, 9) 
         print("Random Number Generator is running!")
@@ -37,5 +54,7 @@ class Lottery:
 
 "__init__" == "__main__ "
 # Lottery() 
-Lottery.random_generator()
+# Lottery.random_generator()
+# Lottery.fix_generator()
+Lottery.lottery_info()
 # Lottery.fix_generator()
