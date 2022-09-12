@@ -1,3 +1,4 @@
+from contextlib import ExitStack
 import random
 from tkinter import *
 from PIL import ImageTk, Image
@@ -8,7 +9,6 @@ from PIL import ImageTk, Image
 # Lottery.title('Lottery Number Generator')
 # Lottery.iconbitmap("ticket.ico")
 
-# num_input = input(f"Please enter a value: \n", a , b , c , d)
 # 4 numbers per 3 slots use 3 list to store the numbers
 
 
@@ -29,10 +29,11 @@ class Existing_Lottery:
         for i in range(4):
             number_slot_3[i] = input("Enter number: ")
         print ("Your last lottery numbers are: {} {} {}".format(number_slot_1, number_slot_2, number_slot_3))
-        def calculate():
-            print("Calculating...")
-            print("Your new numbers are: {} {} {}".format(random.choice(number_slot_1), random.choice(number_slot_2), random.choice(number_slot_3)))
-            print("Good Luck!")
+        
+        print("Calculating...")
+        print("Your new numbers are: {} {} {}".format(random.choice(number_slot_1), random.choice(number_slot_2), random.choice(number_slot_3)))
+        print("Good Luck, with your new numbers!")
+
 class Lottery:
 
     def random_generator(): 
