@@ -10,11 +10,10 @@ from PIL import ImageTk, Image
 
 # num_input = input(f"Please enter a value: \n", a , b , c , d)
 # 4 numbers per 3 slots use 3 list to store the numbers
-# 1st slot
 
-# a = [{input_a}, {}, {}, {}]
 
 class Existing_Lottery:
+        
      def lottery_info():
         number_slot_1 = [[], [], [], []]
         number_slot_2 = [[], [], [], []]
@@ -44,14 +43,6 @@ class Lottery:
         counter = random.randint(0, 9)
         a, b , c , d = ({(a + counter) /2} , {(b + counter)/2} , {(c + counter) / 2} , {(d + counter)/2})
         print(f"Your fix numbers are: {a} {b} {c} {d} \n", end="", flush=True, file=open("fixput.txt", "a"), sep=" ")
-   
-#    def mirror_num():
-#       a , b , c , d = (a + 5), (b + 5), (c + 5), (d + 5) 
-   
-
-
-# def initialize(): 
-#     random_generator()
 
 
 "__init__" == "__main__ "
