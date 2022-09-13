@@ -46,7 +46,6 @@ class Existing_Lottery:
         print("Good Luck, with your new numbers!")
 
 class Lottery:
-
     def random_generator(): 
         a, b, c, d = random.randint(0, 9), random.randint(0, 9), random.randint(0, 9), random.randint(0, 9) 
         print("Random Number Generator is running!")
