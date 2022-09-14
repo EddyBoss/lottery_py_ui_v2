@@ -1,0 +1,15 @@
+lottery_ui {
+  justify-content: center;
+  color: green;
+  background-color: aqua;
+}
+lottery_ui numbers_slot_1, lottery_ui numbers_slot_2, lottery_ui numbers_slot_3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_template {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

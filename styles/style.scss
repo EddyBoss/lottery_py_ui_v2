@@ -1,0 +1,16 @@
+lottery_ui {
+    justify-content: center;
+    color:green;
+    background-color: aqua;
+    numbers_slot_1 , numbers_slot_2, numbers_slot_3 {
+        display:flex;
+        flex-direction: row;
+    }
+}
+.grid_template {
+    justify-content: center;
+}
+// number_slot_1 {
+//     display:flex;
+//     flex-direction: column;
+// }

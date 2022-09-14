@@ -41,7 +41,10 @@ class Existing_Lottery:
         print ("Your last lottery numbers are: {} {} {}".format(number_slot_1, number_slot_2, number_slot_3))
         
         print("Calculating...")
-        time.sleep(1)
+        time.sleep(0.5)
+        print("calculating....")
+        time.sleep(0.5)
+        print("calculating.....")
         print("Your new numbers are: {} {} {}".format(random.choice(number_slot_1), random.choice(number_slot_2), random.choice(number_slot_3)))
         print("Good Luck, with your new numbers!")
 
