@@ -23,19 +23,19 @@ class Existing_Lottery:
         print ("Please enter 4 numbers for the first slot")
         for i in range(4):
             number_slot_1[i] = input("Enter number: ").strip()
-            if number_slot_1[i] == "" or number_slot_1[i] == " ": 
+            if number_slot_1[i] == "" or number_slot_1[i] == " " or len(number_slot_1[i]) >= 2: 
                 number_slot_1[i] = input("Enter a number again!: ").strip()
             else : continue
         print ("Please enter 4 numbers for the second slot")
         for i in range(4):
             number_slot_2[i] = input("Enter number: ").strip()
-            if number_slot_2[i] == "" or number_slot_2[i] == " ":
+            if number_slot_2[i] == "" or number_slot_2[i] == " " or len(number_slot_2[i]) >= 2:
                 number_slot_2[i] = input("Enter a number again!: ").strip()
             else : continue
         print ("Please enter 4 numbers for the third slot")
         for i in range(4):
             number_slot_3[i] = input("Enter number: ").strip()
-            if number_slot_3[i] == "" or number_slot_3[i] == " ":
+            if number_slot_3[i] == "" or number_slot_3[i] == " " or len(number_slot_3[i]) >= 2:
                 number_slot_3[i] = input("Enter a number again!: ").strip()
             else : continue
         print ("Your last lottery numbers are: {} {} {}".format(number_slot_1, number_slot_2, number_slot_3))
