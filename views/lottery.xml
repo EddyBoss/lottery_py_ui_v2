@@ -6,27 +6,27 @@
     <th>
         <tr>
     <numbers_slot_1>
-        <number>1</number>
-        <number>2</number>
-        <number>3</number>
-        <number>4</number>
+        <number id="1">1</number>
+        <number id="2">2</number>
+        <number id="3">3</number>
+        <number id="4">4</number>
     </numbers_slot_1>
 </tr>
 <tr>
     <numbers_slot_2>
-        <number>5</number>
-        <number>6</number>
-        <number>7</number>
-        <number>8</number>
+        <number id="5">5</number>
+        <number id="6">6</number>
+        <number id="7">7</number>
+        <number id="8">8</number>
 
     </numbers_slot_2>
 </tr>
 <tr>
     <numbers_slot_3>
-        <number>9</number>
-        <number>1_0</number>
-        <number>1_1</number>
-        <number>1_2</number>
+        <number id="9">9</number>
+        <number id="10">1_0</number>
+        <number id="11">1_1</number>
+        <number id="12">1_2</number>
 
     </numbers_slot_3>
 </tr>
