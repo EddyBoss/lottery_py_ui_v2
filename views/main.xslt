@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-stylesheet href="../styles/style.css" type="text/css"?>
-<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/">
-    <html>
-    <body>
-        <h1>Lottery</h1>
-        <xsl:apply-templates select="lottery"/>
-        <h1>Lottery UI</h1>
-        <table class="grid_template">
-            <tr>
-                <th>Number</th>
-                <th>Number</th>
-                <th>Number</th>
-            </tr>   
-            <tr>
-                <th>Number</th>
-                <th>Number</th>
-                <th>Number</th>
-            </tr>   
-            <tr>
-                <th>Number</th>
-                <th>Number</th>
-                <th>Number</th>
-            </tr>   
-        </table>
-    </body>
-    </html>
-
-</xsl:template>
+        <html>
+            <head>
+                <title>My First XSLT</title>
+            </head>
+            <body>
+                <h1>My First XSLT</h1>
+                <xsl:apply-templates select="root"/>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="root">
+        <xsl:apply-templates select="child"/>
+    </xsl:template>
+    <xsl:template match="child">
+        <xsl:apply-templates select="grandchild"/>
+    </xsl:template>
+    <xsl:template match="grandchild">
+        <xsl:value-of select="."/>
+    </xsl:template>
 
 </xsl:stylesheet>
