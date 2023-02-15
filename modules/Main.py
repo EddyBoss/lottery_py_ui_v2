@@ -41,7 +41,7 @@ class Existing_Lottery:
         print ("Your last lottery numbers are: {} {} {}".format(number_slot_1, number_slot_2, number_slot_3))
         
         print("Calculating...")
-        time.sleep(0.5)
+        time.sleep(1.5)
         print("calculating....")
         time.sleep(0.5)
         print("calculating.....")
